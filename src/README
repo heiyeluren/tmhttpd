@@ -1,0 +1,32 @@
+     tmhttpd - TieMa(Tiny&Mini) Http Server
+
+tmhttpd is a very small HTTP server. It run from daemon.
+It implements all the basic features of an HTTP
+server, including:
+  
+  *  Support GET/HEAD method
+  *  The common MIME types.
+  *  Support Self custom default index page
+  *  Directory listings.
+  *  Support access log
+  *  Support Self custom port and max clients
+  *  ...
+
+All in about 1000 lines of code.
+
+See the manual entry for more details.
+
+Files in this distribution:
+
+    README		this
+    Makefile		guess
+    tmhttpd.c		source file
+    tmhttpd.h		source file
+    tmhttpd.1		manual entry
+
+To build: If you're on a SysV-like machine (which includes old Linux systems
+but not new Linux systems), edit the Makefile and uncomment the SYSVLIBS line.
+Otherwise, just do a make.
+
+	heiyeluren  http://blog.csdn.net/heiyeshuwu
+
