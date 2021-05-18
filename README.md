@@ -9,17 +9,21 @@ tmhttpd - 简单迷你的Web服务器 <br />
 
 <pre>
 
-<h4>tmhttpd - The tiny and mini Http Server</h4>
-tmhttpd is a very small HTTP server. It run from daemon. It implements all the basic features of an HTTP
+     tmhttpd - TieMa(Tiny&Mini) Http Server
 
-<b>server, including:</b>
-  * Support GET/HEAD method
-  * The common MIME types.
-  * Support Self custom default index page
-  * Directory listings.
-  * Support access log
-  * Support Self custom port and max clients
-  * etc...
+
+tmhttpd is a very small HTTP server. It run from daemon.
+
+It implements all the basic features of an HTTP
+server, including:
+  
+  *  Support GET/HEAD method
+  *  The common MIME types.
+  *  Support Self custom default index page
+  *  Directory listings.
+  *  Support access log
+  *  Support Self custom port and max clients
+  *  ...
 
 
 <b>tmhttpd command help</b>
